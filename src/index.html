@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <h1>Бабуленькины котятки</h1>
+</header>
+<main>
+    <div class="canvas">
+        <input type="checkbox" class="breed-filter" id="abyss">
+        <input type="checkbox" class="breed-filter" id="brit">
+        <input type="checkbox" class="breed-filter" id="blue">
+        <input type="checkbox" class="breed-filter" id="siam">
+        <div class="col-aside-left">
+            <label class="breed" for="abyss">Абиссинская</label>
+            <label class="breed" for="brit">Британская</label>
+            <label class="breed" for="blue">Русская голубая</label>
+            <label class="breed" for="siam">Сиамская</label>
+        </div>
+        <div class="col-main">
+            <div class="cat abyss"><img src="http://www.ideaura.com/photos/cats_revue/cats_30.jpg" alt="Абиссинская">
+                <span class="info">Information</span></div>
+            <div class="cat brit"><img
+                    src="https://avatars.mds.yandex.net/get-pdb/251121/8b5d279d-44aa-400e-b0a8-a552558266ef/s1200?webp=false"
+                    alt="Британская">
+                <span class="info">Information</span></div>
+            <div class="cat brit"><img
+                    src="https://koteiki.com/wp-content/uploads/2018/07/britanets-kotenok-2-mesyatsa.jpg"
+                    alt="Британская">
+                <span class="info">Information</span></div>
+            <div class="cat blue"><img
+                    src="https://avatars.mds.yandex.net/get-pdb/1088712/5cce3f04-cc66-4640-89c8-234fd0904b6b/s1200?webp=false"
+                    alt="Русская голубая">
+                <span class="info">Information</span></div>
+            <div class="cat blue"><img
+                    src="https://avatars.mds.yandex.net/get-pdb/937659/98fab1f2-67d7-4702-b773-83ed648e95f7/s1200?webp=false"
+                    alt="Русская голубая">
+                <span class="info">Information</span></div>
+            <div class="cat blue"><img
+                    src="https://prohvost.club/wp-content/uploads/2018/03/malenkiy-goluboy-kotenok-v-ruke-cheloveka.jpg"
+                    alt="Русская голубая">
+                <span class="info">Information</span></div>
+            <div class="cat siam"><img
+                    src="https://cache3.youla.io/files/images/780_780/5a/4f/5a4f5caac6ab9e9cc25ef755.jpg"
+                    alt="Сиамский">
+                <span class="info">Information</span></div>
+            <div class="cat siam"><img
+                    src="http://www.catswallpapers.net/wallpapers/siamese-kitten-red-background-photo.jpg"
+                    alt="Сиамский">
+                <span class="info">Information</span></div>
+            <div class="cat abyss"><img src="http://www.ideaura.com/photos/cats_revue/cats_30.jpg" alt="Абиссинская">
+                <span class="info">Information</span></div>
+            <div class="cat brit"><img
+                    src="https://avatars.mds.yandex.net/get-pdb/251121/8b5d279d-44aa-400e-b0a8-a552558266ef/s1200?webp=false"
+                    alt="Британская">
+                <span class="info">Information</span></div>
+            <div class="cat brit"><img
+                    src="https://koteiki.com/wp-content/uploads/2018/07/britanets-kotenok-2-mesyatsa.jpg"
+                    alt="Британская">
+                <span class="info">Information</span></div>
+            <div class="cat blue"><img
+                    src="https://avatars.mds.yandex.net/get-pdb/1088712/5cce3f04-cc66-4640-89c8-234fd0904b6b/s1200?webp=false"
+                    alt="Русская голубая">
+                <span class="info">Information</span></div>
+            <div class="cat blue"><img
+                    src="https://avatars.mds.yandex.net/get-pdb/937659/98fab1f2-67d7-4702-b773-83ed648e95f7/s1200?webp=false"
+                    alt="Русская голубая">
+                <span class="info">Information</span></div>
+            <div class="cat blue"><img
+                    src="https://prohvost.club/wp-content/uploads/2018/03/malenkiy-goluboy-kotenok-v-ruke-cheloveka.jpg"
+                    alt="Русская голубая">
+                <span class="info">Information</span></div>
+            <div class="cat siam"><img
+                    src="https://cache3.youla.io/files/images/780_780/5a/4f/5a4f5caac6ab9e9cc25ef755.jpg"
+                    alt="Сиамский">
+                <span class="info">Information</span></div>
+            <div class="cat siam"><img
+                    src="http://www.catswallpapers.net/wallpapers/siamese-kitten-red-background-photo.jpg"
+                    alt="Сиамский">
+                <span class="info">Information</span></div>
+        </div>
+        <div class="col-aside-right">
+            <div><span class="rating-header">Рейтинг</span></div>
+            <input class="ratings__control" id="select-sort-ratings" type="checkbox">
+            <label for="select-sort-ratings" class="ratings__control-label">по убыванию</label>
+            <div class="ratings__list">
+                <div class="ratings__item" data-value="3">
+                    <h5 class="rating__name">Русская голубая</h5>
+                    <div class="rating" data-value="3"></div>
+                </div>
+                <div class="ratings__item" data-value="1">
+                    <h5 class="rating__name">Абиссинская</h5>
+                    <div class="rating" data-value="1"></div>
+                </div>
+                <div class="ratings__item" data-value="4">
+                    <h5 class="rating__name">Сиамская</h5>
+                    <div class="rating" data-value="4"></div>
+                </div>
+                <div class="ratings__item" data-value="2">
+                    <h5 class="rating__name">Британская</h5>
+                    <div class="rating" data-value="2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <span class="footer-left">ООО Бабуленькины котятки, 2019</span>
+    <span class="footer-right">Наш адрес: улица Котовая, д.5</span>
+</footer>
+</body>
+</html>
